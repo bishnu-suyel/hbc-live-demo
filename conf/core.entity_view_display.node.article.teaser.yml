@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_lead
+    - field.field.node.article.field_my_email
     - field.field.node.article.field_tags
     - image.style.medium
     - node.type.article
@@ -55,3 +56,4 @@ content:
 hidden:
   comment: true
   field_lead: true
+  field_my_email: true
