@@ -1,0 +1,14 @@
+uuid: 1c65f3b0-8219-453b-a6d7-c01d06970ea4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: simple_basic_page
+label: 'Simple Basic page'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
