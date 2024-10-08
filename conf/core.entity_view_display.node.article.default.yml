@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_lead
+    - field.field.node.article.field_my_email
     - field.field.node.article.field_tags
     - image.style.wide
     - node.type.article
@@ -57,6 +58,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 111
+    region: content
+  field_my_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 112
     region: content
   field_tags:
     type: entity_reference_label
